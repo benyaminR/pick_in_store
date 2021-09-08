@@ -24,15 +24,20 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  get_it: ^7.2.0
+  injectable: ^1.5.0
+  barcode: ^2.1.0
+  flutter_barcode_scanner: ^2.0.0
+  flutter_bloc: ^7.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  injectable_generator:
+  build_runner:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
