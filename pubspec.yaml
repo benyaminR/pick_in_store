@@ -32,6 +32,10 @@ dependencies:
   barcode: ^2.1.0
   flutter_barcode_scanner: ^2.0.0
   flutter_bloc: ^7.2.0
+  shared_preferences: ^2.0.7
+  equatable:
+  http:
+  xml:
 
 dev_dependencies:
   flutter_test:

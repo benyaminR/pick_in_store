@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:pick_in_store/sign_in/sign_in.dart';
+import 'package:pick_in_store/splash.dart';
+import 'package:pick_in_store/utils/dependencies.dart';
 import 'home/views/home.dart';
+import 'order/view/order.dart';
 
 void main() {
+  configureDependencies();
   runApp(MyApp());
 }
 
@@ -15,9 +20,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.yellow,
         accentColor: Colors.redAccent,
       ),
-      initialRoute: Home.ROUTE,
+      initialRoute: Splash.ROUTE,
       routes: {
+        Splash.ROUTE:(context) => Splash(),
         Home.ROUTE: (context) => Home(),
+        Order.ROUTE : (context) => Order(),
+        SignIn.ROUTE : (context) => SignIn()
       },
     );
   }
