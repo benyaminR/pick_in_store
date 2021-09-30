@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pick_in_store/home/controller/picked_orders/picked_orders_bloc.dart';
 import 'package:pick_in_store/home/controller/unpicked_orders/unpicked_orders_bloc.dart';
 import 'package:pick_in_store/order/view/order.dart';
+import 'package:pick_in_store/pick_up_order/pick_up_order.dart';
 import 'package:pick_in_store/utils/dependencies.dart';
 
 class Home extends StatelessWidget{
@@ -53,7 +54,7 @@ class Home extends StatelessWidget{
                 children: state.items.map((order) => Card(
                   margin: EdgeInsets.fromLTRB(8, 4, 4, 8),
                   child: ListTile(
-                    onTap: () => Navigator.of(context).pushNamed(Order.ROUTE,arguments: OrderModalData(order: order)),
+                    onTap: () => Navigator.of(context).pushNamed(PickUpOrder.ROUTE,arguments: PickUpOrderModal(order: order)),
                     title: Text(order.orderID),
                     subtitle: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,

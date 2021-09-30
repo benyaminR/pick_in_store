@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pick_in_store/pick_up_order/pick_up_order.dart';
 import 'package:pick_in_store/sign_in/sign_in.dart';
 import 'package:pick_in_store/splash.dart';
 import 'package:pick_in_store/utils/dependencies.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         Splash.ROUTE:(context) => Splash(),
         Home.ROUTE: (context) => Home(),
         Order.ROUTE : (context) => Order(),
+        PickUpOrder.ROUTE : (context) => PickUpOrder(),
         SignIn.ROUTE : (context) => SignIn()
       },
     );
