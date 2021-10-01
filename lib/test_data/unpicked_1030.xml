@@ -1,0 +1,223 @@
+<orders>
+<data>
+  <WsPayload><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<aroma_order:DeliveryExport xmlns:aroma_pricing="http://arvatosystems.com/schema/aroma_pricing.xsd" xmlns:aroma_orderstatus="http://arvatosystems.com/schema/aroma_orderstatus.xsd" xmlns:aroma_auth="http://arvatosystems.com/schema/aroma_auth.xsd" xmlns:aroma="http://arvatosystems.com/schema/aroma.xsd" xmlns:aroma_sku="http://arvatosystems.com/schema/aroma_sku.xsd" xmlns:bon="http://www.jpaw.de/schema/bonaparte.xsd" xmlns:aroma_delivery="http://arvatosystems.com/schema/aroma_delivery.xsd" xmlns:aroma_refund="http://arvatosystems.com/schema/aroma_refund.xsd" xmlns:aroma_stock="http://arvatosystems.com/schema/aroma_stock.xsd" xmlns:aroma_finance="http://arvatosystems.com/schema/aroma_finance.xsd" xmlns:aroma_takko="http://arvatosystems.com/schema/aroma_takko.xsd" xmlns:aroma_order="http://arvatosystems.com/schema/aroma_order.xsd">
+    <aroma_order:tenantId>TAKKO</aroma_order:tenantId>
+    <aroma_order:deliveries>
+        <aroma_order:entityId>TAKKO_DE</aroma_order:entityId>
+        <aroma_order:orderId>TA0052516911</aroma_order:orderId>
+        <aroma_order:deliveryOrderId>TA00525169111</aroma_order:deliveryOrderId>
+        <aroma_order:deliveryId>TA00525169111</aroma_order:deliveryId>
+        <aroma_order:checkoutDay>2021-08-22</aroma_order:checkoutDay>
+        <aroma_order:customerId>582178</aroma_order:customerId>
+        <aroma_order:accountId>582178DE</aroma_order:accountId>
+        <aroma_order:shipTo>
+            <aroma_order:salutation>Mrs</aroma_order:salutation>
+            <aroma_order:firstName>Tugba</aroma_order:firstName>
+            <aroma_order:lastName>Keskin</aroma_order:lastName>
+            <aroma_order:gender>FEMALE</aroma_order:gender>
+            <aroma_order:street>Jagdfeldring</aroma_order:street>
+            <aroma_order:streetNumber>37</aroma_order:streetNumber>
+            <aroma_order:zipCode>85540</aroma_order:zipCode>
+            <aroma_order:city>Haar</aroma_order:city>
+            <aroma_order:country>DE</aroma_order:country>
+            <aroma_order:addressLines>Jagdfeldring 37</aroma_order:addressLines>
+            <aroma_order:addressLines>85540 Haar</aroma_order:addressLines>
+            <aroma_order:addressLines>GERMANY</aroma_order:addressLines>
+            <aroma_order:emailAddress>tugba.arslan@hotmail.de</aroma_order:emailAddress>
+            <aroma_order:nameLines>Tugba Keskin</aroma_order:nameLines>
+        </aroma_order:shipTo>
+        <aroma_order:billTo>
+            <aroma_order:salutation>Mrs</aroma_order:salutation>
+            <aroma_order:firstName>Tugba</aroma_order:firstName>
+            <aroma_order:lastName>Keskin</aroma_order:lastName>
+            <aroma_order:gender>FEMALE</aroma_order:gender>
+            <aroma_order:street>Jagdfeldring</aroma_order:street>
+            <aroma_order:streetNumber>37</aroma_order:streetNumber>
+            <aroma_order:zipCode>85540</aroma_order:zipCode>
+            <aroma_order:city>Haar</aroma_order:city>
+            <aroma_order:country>DE</aroma_order:country>
+            <aroma_order:addressLines>Jagdfeldring 37</aroma_order:addressLines>
+            <aroma_order:addressLines>85540 Haar</aroma_order:addressLines>
+            <aroma_order:addressLines>GERMANY</aroma_order:addressLines>
+            <aroma_order:emailAddress>tugba.arslan@hotmail.de</aroma_order:emailAddress>
+            <aroma_order:nameLines>Tugba Keskin</aroma_order:nameLines>
+        </aroma_order:billTo>
+        <aroma_order:storeId>ESHOP_DE_01</aroma_order:storeId>
+        <aroma_order:shipFromLocationId>1899_WINSEN</aroma_order:shipFromLocationId>
+        <aroma_order:carrierId>DHL_STD</aroma_order:carrierId>
+        <aroma_order:openAmount>30.350000</aroma_order:openAmount>
+        <aroma_order:orderStatus>RECEIVED</aroma_order:orderStatus>
+        <aroma_order:items>
+            <aroma_order:orderItemNo>1</aroma_order:orderItemNo>
+            <aroma_order:orderItemId>1</aroma_order:orderItemId>
+            <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+            <aroma_order:catalogId>0</aroma_order:catalogId>
+            <aroma_order:skuId>81899811020407</aroma_order:skuId>
+            <aroma_order:quantity>1.000000</aroma_order:quantity>
+            <aroma_order:currency>EUR</aroma_order:currency>
+            <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+            <aroma_order:amountGross>7.990000</aroma_order:amountGross>
+            <aroma_order:amountNet>6.710000</aroma_order:amountNet>
+            <aroma_order:amountTax>1.280000</aroma_order:amountTax>
+            <aroma_order:amountUndiscountedGross>9.990000</aroma_order:amountUndiscountedGross>
+            <aroma_order:amountUndiscountedNet>8.390000</aroma_order:amountUndiscountedNet>
+            <aroma_order:amountUndiscountedTax>1.600000</aroma_order:amountUndiscountedTax>
+            <aroma_order:amountUnitPriceGross>7.990000</aroma_order:amountUnitPriceGross>
+            <aroma_order:amountUnitPriceNet>6.710000</aroma_order:amountUnitPriceNet>
+            <aroma_order:amountUnitPriceTax>1.280000</aroma_order:amountUnitPriceTax>
+            <aroma_order:amountUnitPriceUndiscountedGross>9.990000</aroma_order:amountUnitPriceUndiscountedGross>
+            <aroma_order:amountUnitPriceUndiscountedNet>9.990000</aroma_order:amountUnitPriceUndiscountedNet>
+            <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+            <aroma_order:description>Mädchen Steppweste - Eingrifftaschen </aroma_order:description>
+            <aroma_order:description2>20% Rabatt</aroma_order:description2>
+            <aroma_order:discountId>202104121005</aroma_order:discountId>
+            <aroma_order:z>
+                <bon:kvp>
+                    <bon:key>promotionType</bon:key>
+                    <bon:value>P</bon:value>
+                </bon:kvp>
+            </aroma_order:z>
+            <aroma_order:skuClass>313311</aroma_order:skuClass>
+        </aroma_order:items>
+        <aroma_order:items>
+            <aroma_order:orderItemNo>2</aroma_order:orderItemNo>
+            <aroma_order:orderItemId>2</aroma_order:orderItemId>
+            <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+            <aroma_order:catalogId>0</aroma_order:catalogId>
+            <aroma_order:skuId>81899951000406</aroma_order:skuId>
+            <aroma_order:quantity>1.000000</aroma_order:quantity>
+            <aroma_order:currency>EUR</aroma_order:currency>
+            <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+            <aroma_order:amountGross>10.390000</aroma_order:amountGross>
+            <aroma_order:amountNet>8.740000</aroma_order:amountNet>
+            <aroma_order:amountTax>1.650000</aroma_order:amountTax>
+            <aroma_order:amountUndiscountedGross>12.990000</aroma_order:amountUndiscountedGross>
+            <aroma_order:amountUndiscountedNet>10.920000</aroma_order:amountUndiscountedNet>
+            <aroma_order:amountUndiscountedTax>2.070000</aroma_order:amountUndiscountedTax>
+            <aroma_order:amountUnitPriceGross>10.390000</aroma_order:amountUnitPriceGross>
+            <aroma_order:amountUnitPriceNet>8.740000</aroma_order:amountUnitPriceNet>
+            <aroma_order:amountUnitPriceTax>1.650000</aroma_order:amountUnitPriceTax>
+            <aroma_order:amountUnitPriceUndiscountedGross>12.990000</aroma_order:amountUnitPriceUndiscountedGross>
+            <aroma_order:amountUnitPriceUndiscountedNet>12.990000</aroma_order:amountUnitPriceUndiscountedNet>
+            <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+            <aroma_order:description>Mädchen Steppweste - Reflektor </aroma_order:description>
+            <aroma_order:description2>20% Rabatt</aroma_order:description2>
+            <aroma_order:discountId>202104121005</aroma_order:discountId>
+            <aroma_order:z>
+                <bon:kvp>
+                    <bon:key>promotionType</bon:key>
+                    <bon:value>P</bon:value>
+                </bon:kvp>
+            </aroma_order:z>
+            <aroma_order:skuClass>313311</aroma_order:skuClass>
+        </aroma_order:items>
+        <aroma_order:items>
+            <aroma_order:orderItemNo>3</aroma_order:orderItemNo>
+            <aroma_order:orderItemId>3</aroma_order:orderItemId>
+            <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+            <aroma_order:catalogId>0</aroma_order:catalogId>
+            <aroma_order:skuId>81910691010606</aroma_order:skuId>
+            <aroma_order:quantity>1.000000</aroma_order:quantity>
+            <aroma_order:currency>EUR</aroma_order:currency>
+            <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+            <aroma_order:amountGross>7.990000</aroma_order:amountGross>
+            <aroma_order:amountNet>6.710000</aroma_order:amountNet>
+            <aroma_order:amountTax>1.280000</aroma_order:amountTax>
+            <aroma_order:amountUndiscountedGross>9.990000</aroma_order:amountUndiscountedGross>
+            <aroma_order:amountUndiscountedNet>8.390000</aroma_order:amountUndiscountedNet>
+            <aroma_order:amountUndiscountedTax>1.600000</aroma_order:amountUndiscountedTax>
+            <aroma_order:amountUnitPriceGross>7.990000</aroma_order:amountUnitPriceGross>
+            <aroma_order:amountUnitPriceNet>6.710000</aroma_order:amountUnitPriceNet>
+            <aroma_order:amountUnitPriceTax>1.280000</aroma_order:amountUnitPriceTax>
+            <aroma_order:amountUnitPriceUndiscountedGross>9.990000</aroma_order:amountUnitPriceUndiscountedGross>
+            <aroma_order:amountUnitPriceUndiscountedNet>9.990000</aroma_order:amountUnitPriceUndiscountedNet>
+            <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+            <aroma_order:description>Baby Steppweste - Polka Dots</aroma_order:description>
+            <aroma_order:description2>20% Rabatt</aroma_order:description2>
+            <aroma_order:discountId>202104121005</aroma_order:discountId>
+            <aroma_order:z>
+                <bon:kvp>
+                    <bon:key>promotionType</bon:key>
+                    <bon:value>P</bon:value>
+                </bon:kvp>
+            </aroma_order:z>
+            <aroma_order:skuClass>312312</aroma_order:skuClass>
+        </aroma_order:items>
+        <aroma_order:items>
+            <aroma_order:orderItemNo>4</aroma_order:orderItemNo>
+            <aroma_order:orderItemId>4</aroma_order:orderItemId>
+            <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+            <aroma_order:catalogId>0</aroma_order:catalogId>
+            <aroma_order:skuId>81878751060308</aroma_order:skuId>
+            <aroma_order:quantity>1.000000</aroma_order:quantity>
+            <aroma_order:currency>EUR</aroma_order:currency>
+            <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+            <aroma_order:amountGross>1.490000</aroma_order:amountGross>
+            <aroma_order:amountNet>1.250000</aroma_order:amountNet>
+            <aroma_order:amountTax>0.240000</aroma_order:amountTax>
+            <aroma_order:amountUndiscountedGross>2.990000</aroma_order:amountUndiscountedGross>
+            <aroma_order:amountUndiscountedNet>2.510000</aroma_order:amountUndiscountedNet>
+            <aroma_order:amountUndiscountedTax>0.480000</aroma_order:amountUndiscountedTax>
+            <aroma_order:amountUnitPriceGross>1.490000</aroma_order:amountUnitPriceGross>
+            <aroma_order:amountUnitPriceNet>1.250000</aroma_order:amountUnitPriceNet>
+            <aroma_order:amountUnitPriceTax>0.240000</aroma_order:amountUnitPriceTax>
+            <aroma_order:amountUnitPriceUndiscountedGross>2.990000</aroma_order:amountUnitPriceUndiscountedGross>
+            <aroma_order:amountUnitPriceUndiscountedNet>2.990000</aroma_order:amountUnitPriceUndiscountedNet>
+            <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+            <aroma_order:description>Jungen Sneakersocken im 5er-Pack</aroma_order:description>
+            <aroma_order:description2>50% Rabatt auf Sale</aroma_order:description2>
+            <aroma_order:discountId>202108030904</aroma_order:discountId>
+            <aroma_order:z>
+                <bon:kvp>
+                    <bon:key>promotionType</bon:key>
+                    <bon:value>P</bon:value>
+                </bon:kvp>
+            </aroma_order:z>
+            <aroma_order:skuClass>513043</aroma_order:skuClass>
+        </aroma_order:items>
+        <aroma_order:items>
+            <aroma_order:orderItemNo>5</aroma_order:orderItemNo>
+            <aroma_order:orderItemId>5</aroma_order:orderItemId>
+            <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+            <aroma_order:catalogId>0</aroma_order:catalogId>
+            <aroma_order:skuId>81876281010602</aroma_order:skuId>
+            <aroma_order:quantity>1.000000</aroma_order:quantity>
+            <aroma_order:currency>EUR</aroma_order:currency>
+            <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+            <aroma_order:amountGross>2.490000</aroma_order:amountGross>
+            <aroma_order:amountNet>2.090000</aroma_order:amountNet>
+            <aroma_order:amountTax>0.400000</aroma_order:amountTax>
+            <aroma_order:amountUndiscountedGross>4.990000</aroma_order:amountUndiscountedGross>
+            <aroma_order:amountUndiscountedNet>4.190000</aroma_order:amountUndiscountedNet>
+            <aroma_order:amountUndiscountedTax>0.800000</aroma_order:amountUndiscountedTax>
+            <aroma_order:amountUnitPriceGross>2.490000</aroma_order:amountUnitPriceGross>
+            <aroma_order:amountUnitPriceNet>2.090000</aroma_order:amountUnitPriceNet>
+            <aroma_order:amountUnitPriceTax>0.400000</aroma_order:amountUnitPriceTax>
+            <aroma_order:amountUnitPriceUndiscountedGross>4.990000</aroma_order:amountUnitPriceUndiscountedGross>
+            <aroma_order:amountUnitPriceUndiscountedNet>4.990000</aroma_order:amountUnitPriceUndiscountedNet>
+            <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+            <aroma_order:description>Herren T-Shirt mit V-Ausschnitt</aroma_order:description>
+            <aroma_order:description2>50% Rabatt auf Sale</aroma_order:description2>
+            <aroma_order:discountId>202108030904</aroma_order:discountId>
+            <aroma_order:z>
+                <bon:kvp>
+                    <bon:key>promotionType</bon:key>
+                    <bon:value>P</bon:value>
+                </bon:kvp>
+            </aroma_order:z>
+            <aroma_order:skuClass>211112</aroma_order:skuClass>
+        </aroma_order:items>
+        <aroma_order:z>
+            <bon:kvp>
+                <bon:key>payInstrument</bon:key>
+                <bon:value>PAYPAL</bon:value>
+            </bon:kvp>
+        </aroma_order:z>
+        <aroma_order:orderDate>2021-08-22T21:13:27.000</aroma_order:orderDate>
+        <aroma_order:customerGroup>ANONYMOUS</aroma_order:customerGroup>
+    </aroma_order:deliveries>
+</aroma_order:DeliveryExport>
+</WsPayload>
+</data>
+</orders>

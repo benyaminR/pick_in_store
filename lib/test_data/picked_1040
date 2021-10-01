@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+
+<orders>
+    <data>
+        <WsPayload><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+            <aroma_order:DeliveryExport xmlns:aroma_pricing="http://arvatosystems.com/schema/aroma_pricing.xsd" xmlns:aroma_orderstatus="http://arvatosystems.com/schema/aroma_orderstatus.xsd" xmlns:aroma_auth="http://arvatosystems.com/schema/aroma_auth.xsd" xmlns:aroma="http://arvatosystems.com/schema/aroma.xsd" xmlns:aroma_sku="http://arvatosystems.com/schema/aroma_sku.xsd" xmlns:bon="http://www.jpaw.de/schema/bonaparte.xsd" xmlns:aroma_delivery="http://arvatosystems.com/schema/aroma_delivery.xsd" xmlns:aroma_refund="http://arvatosystems.com/schema/aroma_refund.xsd" xmlns:aroma_stock="http://arvatosystems.com/schema/aroma_stock.xsd" xmlns:aroma_finance="http://arvatosystems.com/schema/aroma_finance.xsd" xmlns:aroma_takko="http://arvatosystems.com/schema/aroma_takko.xsd" xmlns:aroma_order="http://arvatosystems.com/schema/aroma_order.xsd">
+                <aroma_order:tenantId>TAKKO</aroma_order:tenantId>
+                <aroma_order:deliveries>
+                    <aroma_order:entityId>TAKKO_DE</aroma_order:entityId>
+                    <aroma_order:orderId>TA0052516911</aroma_order:orderId>
+                    <aroma_order:deliveryOrderId>TA00525169111</aroma_order:deliveryOrderId>
+                    <aroma_order:deliveryId>TA00525169111</aroma_order:deliveryId>
+                    <aroma_order:checkoutDay>2021-08-22</aroma_order:checkoutDay>
+                    <aroma_order:customerId>582178</aroma_order:customerId>
+                    <aroma_order:accountId>582178DE</aroma_order:accountId>
+                    <aroma_order:shipTo>
+                        <aroma_order:salutation>Mr</aroma_order:salutation>
+                        <aroma_order:firstName>Maximiliana</aroma_order:firstName>
+                        <aroma_order:lastName>Evangeliya</aroma_order:lastName>
+                        <aroma_order:gender>MALE</aroma_order:gender>
+                        <aroma_order:street>Jagdfeldring</aroma_order:street>
+                        <aroma_order:streetNumber>37</aroma_order:streetNumber>
+                        <aroma_order:zipCode>85540</aroma_order:zipCode>
+                        <aroma_order:city>Haar</aroma_order:city>
+                        <aroma_order:country>DE</aroma_order:country>
+                        <aroma_order:addressLines>Jagdfeldring 37</aroma_order:addressLines>
+                        <aroma_order:addressLines>85540 Haar</aroma_order:addressLines>
+                        <aroma_order:addressLines>GERMANY</aroma_order:addressLines>
+                        <aroma_order:emailAddress>tugba.arslan@hotmail.de</aroma_order:emailAddress>
+                        <aroma_order:nameLines>Maximiliana Evangeliya</aroma_order:nameLines>
+                    </aroma_order:shipTo>
+                    <aroma_order:billTo>
+                        <aroma_order:salutation>Mrs</aroma_order:salutation>
+                        <aroma_order:firstName>Maximiliana</aroma_order:firstName>
+                        <aroma_order:lastName>Evangeliya</aroma_order:lastName>
+                        <aroma_order:gender>FEMALE</aroma_order:gender>
+                        <aroma_order:street>Jagdfeldring</aroma_order:street>
+                        <aroma_order:streetNumber>37</aroma_order:streetNumber>
+                        <aroma_order:zipCode>85540</aroma_order:zipCode>
+                        <aroma_order:city>Haar</aroma_order:city>
+                        <aroma_order:country>DE</aroma_order:country>
+                        <aroma_order:addressLines>Jagdfeldring 37</aroma_order:addressLines>
+                        <aroma_order:addressLines>85540 Haar</aroma_order:addressLines>
+                        <aroma_order:addressLines>GERMANY</aroma_order:addressLines>
+                        <aroma_order:emailAddress>tugba.arslan@hotmail.de</aroma_order:emailAddress>
+                        <aroma_order:nameLines>Maximiliana Evangeliya</aroma_order:nameLines>
+                    </aroma_order:billTo>
+                    <aroma_order:storeId>ESHOP_DE_01</aroma_order:storeId>
+                    <aroma_order:shipFromLocationId>1899_WINSEN</aroma_order:shipFromLocationId>
+                    <aroma_order:carrierId>DHL_STD</aroma_order:carrierId>
+                    <aroma_order:openAmount>30.350000</aroma_order:openAmount>
+                    <aroma_order:orderStatus>RECEIVED</aroma_order:orderStatus>
+                    <aroma_order:items>
+                        <aroma_order:orderItemNo>1</aroma_order:orderItemNo>
+                        <aroma_order:orderItemId>1</aroma_order:orderItemId>
+                        <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+                        <aroma_order:catalogId>0</aroma_order:catalogId>
+                        <aroma_order:skuId>81899811020407</aroma_order:skuId>
+                        <aroma_order:quantity>1.000000</aroma_order:quantity>
+                        <aroma_order:currency>EUR</aroma_order:currency>
+                        <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+                        <aroma_order:amountGross>7.990000</aroma_order:amountGross>
+                        <aroma_order:amountNet>6.710000</aroma_order:amountNet>
+                        <aroma_order:amountTax>1.280000</aroma_order:amountTax>
+                        <aroma_order:amountUndiscountedGross>9.990000</aroma_order:amountUndiscountedGross>
+                        <aroma_order:amountUndiscountedNet>8.390000</aroma_order:amountUndiscountedNet>
+                        <aroma_order:amountUndiscountedTax>1.600000</aroma_order:amountUndiscountedTax>
+                        <aroma_order:amountUnitPriceGross>7.990000</aroma_order:amountUnitPriceGross>
+                        <aroma_order:amountUnitPriceNet>6.710000</aroma_order:amountUnitPriceNet>
+                        <aroma_order:amountUnitPriceTax>1.280000</aroma_order:amountUnitPriceTax>
+                        <aroma_order:amountUnitPriceUndiscountedGross>9.990000</aroma_order:amountUnitPriceUndiscountedGross>
+                        <aroma_order:amountUnitPriceUndiscountedNet>9.990000</aroma_order:amountUnitPriceUndiscountedNet>
+                        <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+                        <aroma_order:description>Mädchen Steppweste - Eingrifftaschen </aroma_order:description>
+                        <aroma_order:description2>20% Rabatt</aroma_order:description2>
+                        <aroma_order:discountId>202104121005</aroma_order:discountId>
+                        <aroma_order:z>
+                            <bon:kvp>
+                                <bon:key>promotionType</bon:key>
+                                <bon:value>P</bon:value>
+                            </bon:kvp>
+                        </aroma_order:z>
+                        <aroma_order:skuClass>313311</aroma_order:skuClass>
+                    </aroma_order:items>
+                    <aroma_order:items>
+                        <aroma_order:orderItemNo>2</aroma_order:orderItemNo>
+                        <aroma_order:orderItemId>2</aroma_order:orderItemId>
+                        <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+                        <aroma_order:catalogId>0</aroma_order:catalogId>
+                        <aroma_order:skuId>81899951000406</aroma_order:skuId>
+                        <aroma_order:quantity>1.000000</aroma_order:quantity>
+                        <aroma_order:currency>EUR</aroma_order:currency>
+                        <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+                        <aroma_order:amountGross>10.390000</aroma_order:amountGross>
+                        <aroma_order:amountNet>8.740000</aroma_order:amountNet>
+                        <aroma_order:amountTax>1.650000</aroma_order:amountTax>
+                        <aroma_order:amountUndiscountedGross>12.990000</aroma_order:amountUndiscountedGross>
+                        <aroma_order:amountUndiscountedNet>10.920000</aroma_order:amountUndiscountedNet>
+                        <aroma_order:amountUndiscountedTax>2.070000</aroma_order:amountUndiscountedTax>
+                        <aroma_order:amountUnitPriceGross>10.390000</aroma_order:amountUnitPriceGross>
+                        <aroma_order:amountUnitPriceNet>8.740000</aroma_order:amountUnitPriceNet>
+                        <aroma_order:amountUnitPriceTax>1.650000</aroma_order:amountUnitPriceTax>
+                        <aroma_order:amountUnitPriceUndiscountedGross>12.990000</aroma_order:amountUnitPriceUndiscountedGross>
+                        <aroma_order:amountUnitPriceUndiscountedNet>12.990000</aroma_order:amountUnitPriceUndiscountedNet>
+                        <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+                        <aroma_order:description>Mädchen Steppweste - Reflektor </aroma_order:description>
+                        <aroma_order:description2>20% Rabatt</aroma_order:description2>
+                        <aroma_order:discountId>202104121005</aroma_order:discountId>
+                        <aroma_order:z>
+                            <bon:kvp>
+                                <bon:key>promotionType</bon:key>
+                                <bon:value>P</bon:value>
+                            </bon:kvp>
+                        </aroma_order:z>
+                        <aroma_order:skuClass>313311</aroma_order:skuClass>
+                    </aroma_order:items>
+                    <aroma_order:z>
+                        <bon:kvp>
+                            <bon:key>payInstrument</bon:key>
+                            <bon:value>PAYPAL</bon:value>
+                        </bon:kvp>
+                    </aroma_order:z>
+                    <aroma_order:orderDate>2021-08-22T21:13:27.000</aroma_order:orderDate>
+                    <aroma_order:customerGroup>ANONYMOUS</aroma_order:customerGroup>
+                </aroma_order:deliveries>
+            </aroma_order:DeliveryExport>
+        </WsPayload>
+    </data>
+    <data>
+        <WsPayload><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+            <aroma_order:DeliveryExport xmlns:aroma_pricing="http://arvatosystems.com/schema/aroma_pricing.xsd" xmlns:aroma_orderstatus="http://arvatosystems.com/schema/aroma_orderstatus.xsd" xmlns:aroma_auth="http://arvatosystems.com/schema/aroma_auth.xsd" xmlns:aroma="http://arvatosystems.com/schema/aroma.xsd" xmlns:aroma_sku="http://arvatosystems.com/schema/aroma_sku.xsd" xmlns:bon="http://www.jpaw.de/schema/bonaparte.xsd" xmlns:aroma_delivery="http://arvatosystems.com/schema/aroma_delivery.xsd" xmlns:aroma_refund="http://arvatosystems.com/schema/aroma_refund.xsd" xmlns:aroma_stock="http://arvatosystems.com/schema/aroma_stock.xsd" xmlns:aroma_finance="http://arvatosystems.com/schema/aroma_finance.xsd" xmlns:aroma_takko="http://arvatosystems.com/schema/aroma_takko.xsd" xmlns:aroma_order="http://arvatosystems.com/schema/aroma_order.xsd">
+                <aroma_order:tenantId>TAKKO</aroma_order:tenantId>
+                <aroma_order:deliveries>
+                    <aroma_order:entityId>TAKKO_DE</aroma_order:entityId>
+                    <aroma_order:orderId>TA0052516808</aroma_order:orderId>
+                    <aroma_order:deliveryOrderId>TA00525168081</aroma_order:deliveryOrderId>
+                    <aroma_order:deliveryId>TA00525168081</aroma_order:deliveryId>
+                    <aroma_order:checkoutDay>2021-08-22</aroma_order:checkoutDay>
+                    <aroma_order:customerId>582180</aroma_order:customerId>
+                    <aroma_order:accountId>582180DE</aroma_order:accountId>
+                    <aroma_order:shipTo>
+                        <aroma_order:salutation>Mrs</aroma_order:salutation>
+                        <aroma_order:firstName>Lili</aroma_order:firstName>
+                        <aroma_order:lastName>Maeve</aroma_order:lastName>
+                        <aroma_order:gender>FEMALE</aroma_order:gender>
+                        <aroma_order:street>Gubener Vorstadt</aroma_order:street>
+                        <aroma_order:streetNumber>56</aroma_order:streetNumber>
+                        <aroma_order:zipCode>03185</aroma_order:zipCode>
+                        <aroma_order:city>Peitz</aroma_order:city>
+                        <aroma_order:country>DE</aroma_order:country>
+                        <aroma_order:addressLines>Gubener Vorstadt 56</aroma_order:addressLines>
+                        <aroma_order:addressLines>03185 Peitz</aroma_order:addressLines>
+                        <aroma_order:addressLines>GERMANY</aroma_order:addressLines>
+                        <aroma_order:emailAddress>sabine-paschke@t-online.de</aroma_order:emailAddress>
+                        <aroma_order:nameLines>Lili Maeve</aroma_order:nameLines>
+                    </aroma_order:shipTo>
+                    <aroma_order:billTo>
+                        <aroma_order:salutation>Mrs</aroma_order:salutation>
+                        <aroma_order:firstName>Lili</aroma_order:firstName>
+                        <aroma_order:lastName>Maeve</aroma_order:lastName>
+                        <aroma_order:gender>FEMALE</aroma_order:gender>
+                        <aroma_order:street>Gubener Vorstadt</aroma_order:street>
+                        <aroma_order:streetNumber>56</aroma_order:streetNumber>
+                        <aroma_order:zipCode>03185</aroma_order:zipCode>
+                        <aroma_order:city>Peitz</aroma_order:city>
+                        <aroma_order:country>DE</aroma_order:country>
+                        <aroma_order:addressLines>Gubener Vorstadt 56</aroma_order:addressLines>
+                        <aroma_order:addressLines>03185 Peitz</aroma_order:addressLines>
+                        <aroma_order:addressLines>GERMANY</aroma_order:addressLines>
+                        <aroma_order:emailAddress>sabine-paschke@t-online.de</aroma_order:emailAddress>
+                        <aroma_order:nameLines>Lili Maeve</aroma_order:nameLines>
+                    </aroma_order:billTo>
+                    <aroma_order:storeId>ESHOP_DE_01</aroma_order:storeId>
+                    <aroma_order:shipFromLocationId>1899_WINSEN</aroma_order:shipFromLocationId>
+                    <aroma_order:carrierId>DHL_STD</aroma_order:carrierId>
+                    <aroma_order:openAmount>133.470000</aroma_order:openAmount>
+                    <aroma_order:orderStatus>RECEIVED</aroma_order:orderStatus>
+                    <aroma_order:items>
+                        <aroma_order:orderItemNo>1</aroma_order:orderItemNo>
+                        <aroma_order:orderItemId>1</aroma_order:orderItemId>
+                        <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+                        <aroma_order:catalogId>0</aroma_order:catalogId>
+                        <aroma_order:skuId>81928721000404</aroma_order:skuId>
+                        <aroma_order:quantity>1.000000</aroma_order:quantity>
+                        <aroma_order:currency>EUR</aroma_order:currency>
+                        <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+                        <aroma_order:amountGross>12.590000</aroma_order:amountGross>
+                        <aroma_order:amountNet>10.580000</aroma_order:amountNet>
+                        <aroma_order:amountTax>2.010000</aroma_order:amountTax>
+                        <aroma_order:amountUndiscountedGross>17.990000</aroma_order:amountUndiscountedGross>
+                        <aroma_order:amountUndiscountedNet>15.120000</aroma_order:amountUndiscountedNet>
+                        <aroma_order:amountUndiscountedTax>2.870000</aroma_order:amountUndiscountedTax>
+                        <aroma_order:amountUnitPriceGross>12.590000</aroma_order:amountUnitPriceGross>
+                        <aroma_order:amountUnitPriceNet>10.580000</aroma_order:amountUnitPriceNet>
+                        <aroma_order:amountUnitPriceTax>2.010000</aroma_order:amountUnitPriceTax>
+                        <aroma_order:amountUnitPriceUndiscountedGross>17.990000</aroma_order:amountUnitPriceUndiscountedGross>
+                        <aroma_order:amountUnitPriceUndiscountedNet>17.990000</aroma_order:amountUnitPriceUndiscountedNet>
+                        <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+                        <aroma_order:description>Damen Longbluse - Oversized Fit</aroma_order:description>
+                        <aroma_order:description2>30% Rabatt</aroma_order:description2>
+                        <aroma_order:discountId>202103151254</aroma_order:discountId>
+                        <aroma_order:z>
+                            <bon:kvp>
+                                <bon:key>promotionType</bon:key>
+                                <bon:value>P</bon:value>
+                            </bon:kvp>
+                        </aroma_order:z>
+                        <aroma_order:skuClass>111163</aroma_order:skuClass>
+                    </aroma_order:items>
+                    <aroma_order:items>
+                        <aroma_order:orderItemNo>2</aroma_order:orderItemNo>
+                        <aroma_order:orderItemId>2</aroma_order:orderItemId>
+                        <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+                        <aroma_order:catalogId>0</aroma_order:catalogId>
+                        <aroma_order:skuId>81928721000305</aroma_order:skuId>
+                        <aroma_order:quantity>1.000000</aroma_order:quantity>
+                        <aroma_order:currency>EUR</aroma_order:currency>
+                        <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+                        <aroma_order:amountGross>12.590000</aroma_order:amountGross>
+                        <aroma_order:amountNet>10.580000</aroma_order:amountNet>
+                        <aroma_order:amountTax>2.010000</aroma_order:amountTax>
+                        <aroma_order:amountUndiscountedGross>17.990000</aroma_order:amountUndiscountedGross>
+                        <aroma_order:amountUndiscountedNet>15.120000</aroma_order:amountUndiscountedNet>
+                        <aroma_order:amountUndiscountedTax>2.870000</aroma_order:amountUndiscountedTax>
+                        <aroma_order:amountUnitPriceGross>12.590000</aroma_order:amountUnitPriceGross>
+                        <aroma_order:amountUnitPriceNet>10.580000</aroma_order:amountUnitPriceNet>
+                        <aroma_order:amountUnitPriceTax>2.010000</aroma_order:amountUnitPriceTax>
+                        <aroma_order:amountUnitPriceUndiscountedGross>17.990000</aroma_order:amountUnitPriceUndiscountedGross>
+                        <aroma_order:amountUnitPriceUndiscountedNet>17.990000</aroma_order:amountUnitPriceUndiscountedNet>
+                        <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+                        <aroma_order:description>Damen Longbluse - Oversized Fit</aroma_order:description>
+                        <aroma_order:description2>30% Rabatt</aroma_order:description2>
+                        <aroma_order:discountId>202103151254</aroma_order:discountId>
+                        <aroma_order:z>
+                            <bon:kvp>
+                                <bon:key>promotionType</bon:key>
+                                <bon:value>P</bon:value>
+                            </bon:kvp>
+                        </aroma_order:z>
+                        <aroma_order:skuClass>111163</aroma_order:skuClass>
+                    </aroma_order:items>
+                    <aroma_order:items>
+                        <aroma_order:orderItemNo>3</aroma_order:orderItemNo>
+                        <aroma_order:orderItemId>3</aroma_order:orderItemId>
+                        <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+                        <aroma_order:catalogId>0</aroma_order:catalogId>
+                        <aroma_order:skuId>81872761000309</aroma_order:skuId>
+                        <aroma_order:quantity>1.000000</aroma_order:quantity>
+                        <aroma_order:currency>EUR</aroma_order:currency>
+                        <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+                        <aroma_order:amountGross>11.190000</aroma_order:amountGross>
+                        <aroma_order:amountNet>9.410000</aroma_order:amountNet>
+                        <aroma_order:amountTax>1.780000</aroma_order:amountTax>
+                        <aroma_order:amountUndiscountedGross>15.990000</aroma_order:amountUndiscountedGross>
+                        <aroma_order:amountUndiscountedNet>13.440000</aroma_order:amountUndiscountedNet>
+                        <aroma_order:amountUndiscountedTax>2.550000</aroma_order:amountUndiscountedTax>
+                        <aroma_order:amountUnitPriceGross>11.190000</aroma_order:amountUnitPriceGross>
+                        <aroma_order:amountUnitPriceNet>9.410000</aroma_order:amountUnitPriceNet>
+                        <aroma_order:amountUnitPriceTax>1.780000</aroma_order:amountUnitPriceTax>
+                        <aroma_order:amountUnitPriceUndiscountedGross>15.990000</aroma_order:amountUnitPriceUndiscountedGross>
+                        <aroma_order:amountUnitPriceUndiscountedNet>15.990000</aroma_order:amountUnitPriceUndiscountedNet>
+                        <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+                        <aroma_order:description>Damen Bluse mit Stretch-Anteil</aroma_order:description>
+                        <aroma_order:description2>30% Rabatt</aroma_order:description2>
+                        <aroma_order:discountId>202103151254</aroma_order:discountId>
+                        <aroma_order:z>
+                            <bon:kvp>
+                                <bon:key>promotionType</bon:key>
+                                <bon:value>P</bon:value>
+                            </bon:kvp>
+                        </aroma_order:z>
+                        <aroma_order:skuClass>111163</aroma_order:skuClass>
+                    </aroma_order:items>
+                    <aroma_order:items>
+                        <aroma_order:orderItemNo>4</aroma_order:orderItemNo>
+                        <aroma_order:orderItemId>4</aroma_order:orderItemId>
+                        <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+                        <aroma_order:catalogId>0</aroma_order:catalogId>
+                        <aroma_order:skuId>81872761000408</aroma_order:skuId>
+                        <aroma_order:quantity>1.000000</aroma_order:quantity>
+                        <aroma_order:currency>EUR</aroma_order:currency>
+                        <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+                        <aroma_order:amountGross>11.190000</aroma_order:amountGross>
+                        <aroma_order:amountNet>9.410000</aroma_order:amountNet>
+                        <aroma_order:amountTax>1.780000</aroma_order:amountTax>
+                        <aroma_order:amountUndiscountedGross>15.990000</aroma_order:amountUndiscountedGross>
+                        <aroma_order:amountUndiscountedNet>13.440000</aroma_order:amountUndiscountedNet>
+                        <aroma_order:amountUndiscountedTax>2.550000</aroma_order:amountUndiscountedTax>
+                        <aroma_order:amountUnitPriceGross>11.190000</aroma_order:amountUnitPriceGross>
+                        <aroma_order:amountUnitPriceNet>9.410000</aroma_order:amountUnitPriceNet>
+                        <aroma_order:amountUnitPriceTax>1.780000</aroma_order:amountUnitPriceTax>
+                        <aroma_order:amountUnitPriceUndiscountedGross>15.990000</aroma_order:amountUnitPriceUndiscountedGross>
+                        <aroma_order:amountUnitPriceUndiscountedNet>15.990000</aroma_order:amountUnitPriceUndiscountedNet>
+                        <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+                        <aroma_order:description>Damen Bluse mit Stretch-Anteil</aroma_order:description>
+                        <aroma_order:description2>30% Rabatt</aroma_order:description2>
+                        <aroma_order:discountId>202103151254</aroma_order:discountId>
+                        <aroma_order:z>
+                            <bon:kvp>
+                                <bon:key>promotionType</bon:key>
+                                <bon:value>P</bon:value>
+                            </bon:kvp>
+                        </aroma_order:z>
+                        <aroma_order:skuClass>111163</aroma_order:skuClass>
+                    </aroma_order:items>
+                    <aroma_order:items>
+                        <aroma_order:orderItemNo>5</aroma_order:orderItemNo>
+                        <aroma_order:orderItemId>5</aroma_order:orderItemId>
+                        <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+                        <aroma_order:catalogId>0</aroma_order:catalogId>
+                        <aroma_order:skuId>81913311040304</aroma_order:skuId>
+                        <aroma_order:quantity>1.000000</aroma_order:quantity>
+                        <aroma_order:currency>EUR</aroma_order:currency>
+                        <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+                        <aroma_order:amountGross>6.990000</aroma_order:amountGross>
+                        <aroma_order:amountNet>5.870000</aroma_order:amountNet>
+                        <aroma_order:amountTax>1.120000</aroma_order:amountTax>
+                        <aroma_order:amountUndiscountedGross>9.990000</aroma_order:amountUndiscountedGross>
+                        <aroma_order:amountUndiscountedNet>8.390000</aroma_order:amountUndiscountedNet>
+                        <aroma_order:amountUndiscountedTax>1.600000</aroma_order:amountUndiscountedTax>
+                        <aroma_order:amountUnitPriceGross>6.990000</aroma_order:amountUnitPriceGross>
+                        <aroma_order:amountUnitPriceNet>5.870000</aroma_order:amountUnitPriceNet>
+                        <aroma_order:amountUnitPriceTax>1.120000</aroma_order:amountUnitPriceTax>
+                        <aroma_order:amountUnitPriceUndiscountedGross>9.990000</aroma_order:amountUnitPriceUndiscountedGross>
+                        <aroma_order:amountUnitPriceUndiscountedNet>9.990000</aroma_order:amountUnitPriceUndiscountedNet>
+                        <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+                        <aroma_order:description>Damen Pullover - Grobstrick</aroma_order:description>
+                        <aroma_order:description2>30% Rabatt</aroma_order:description2>
+                        <aroma_order:discountId>202103151254</aroma_order:discountId>
+                        <aroma_order:z>
+                            <bon:kvp>
+                                <bon:key>promotionType</bon:key>
+                                <bon:value>P</bon:value>
+                            </bon:kvp>
+                        </aroma_order:z>
+                        <aroma_order:skuClass>117141</aroma_order:skuClass>
+                    </aroma_order:items>
+                    <aroma_order:items>
+                        <aroma_order:orderItemNo>6</aroma_order:orderItemNo>
+                        <aroma_order:orderItemId>6</aroma_order:orderItemId>
+                        <aroma_order:orderItemType>PHYSICAL</aroma_order:orderItemType>
+                        <aroma_order:catalogId>0</aroma_order:catalogId>
+                        <aroma_order:skuId>81913311040403</aroma_order:skuId>
+                        <aroma_order:quantity>1.000000</aroma_order:quantity>
+                        <aroma_order:currency>EUR</aroma_order:currency>
+                        <aroma_order:taxGroupId>DE_FULL</aroma_order:taxGroupId>
+                        <aroma_order:amountGross>6.990000</aroma_order:amountGross>
+                        <aroma_order:amountNet>5.870000</aroma_order:amountNet>
+                        <aroma_order:amountTax>1.120000</aroma_order:amountTax>
+                        <aroma_order:amountUndiscountedGross>9.990000</aroma_order:amountUndiscountedGross>
+                        <aroma_order:amountUndiscountedNet>8.390000</aroma_order:amountUndiscountedNet>
+                        <aroma_order:amountUndiscountedTax>1.600000</aroma_order:amountUndiscountedTax>
+                        <aroma_order:amountUnitPriceGross>6.990000</aroma_order:amountUnitPriceGross>
+                        <aroma_order:amountUnitPriceNet>5.870000</aroma_order:amountUnitPriceNet>
+                        <aroma_order:amountUnitPriceTax>1.120000</aroma_order:amountUnitPriceTax>
+                        <aroma_order:amountUnitPriceUndiscountedGross>9.990000</aroma_order:amountUnitPriceUndiscountedGross>
+                        <aroma_order:amountUnitPriceUndiscountedNet>9.990000</aroma_order:amountUnitPriceUndiscountedNet>
+                        <aroma_order:amountUnitPriceUndiscountedTax>0.000000</aroma_order:amountUnitPriceUndiscountedTax>
+                        <aroma_order:description>Damen Pullover - Grobstrick</aroma_order:description>
+                        <aroma_order:description2>30% Rabatt</aroma_order:description2>
+                        <aroma_order:discountId>202103151254</aroma_order:discountId>
+                        <aroma_order:z>
+                            <bon:kvp>
+                                <bon:key>promotionType</bon:key>
+                                <bon:value>P</bon:value>
+                            </bon:kvp>
+                        </aroma_order:z>
+                        <aroma_order:skuClass>117141</aroma_order:skuClass>
+                    </aroma_order:items>
+                    <aroma_order:z>
+                        <bon:kvp>
+                            <bon:key>payInstrument</bon:key>
+                            <bon:value>TERMS</bon:value>
+                        </bon:kvp>
+                    </aroma_order:z>
+                    <aroma_order:orderDate>2021-08-22T21:16:38.000</aroma_order:orderDate>
+                    <aroma_order:customerGroup>ANONYMOUS</aroma_order:customerGroup>
+                </aroma_order:deliveries>
+            </aroma_order:DeliveryExport>
+        </WsPayload>
+    </data>
+
+</orders>
