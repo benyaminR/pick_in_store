@@ -16,6 +16,7 @@ class XMLConverter{
       convertedItems.add(ListItemOrderModel(
           date: delivery.getElement("aroma_order:orderDate")!.text,
           orderID: delivery.getElement("aroma_order:orderId")!.text,
+          price: delivery.getElement("aroma_order:openAmount")!.text,
           articles: delivery.findAllElements("aroma_order:items").toList()
               .map((orderItem) => ArticleModel(
               articleID: orderItem.getElement("aroma_order:skuId")!.text,

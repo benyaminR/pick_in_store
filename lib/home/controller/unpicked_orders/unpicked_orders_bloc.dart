@@ -14,11 +14,9 @@ part 'unpicked_orders_state.dart';
 @singleton
 class UnpickedOrdersBloc extends Bloc<UnpickedOrdersEvent, UnpickedOrdersState> {
 
-  UnpickedOrdersBloc() : super(UnpickedOrdersState(status: UnpickedStatus.Initial)){
-    add(GetUnpickedOrdersEvent());
-  }
+  UnpickedOrdersBloc() : super(UnpickedOrdersState(status: UnpickedStatus.Initial));
 
-  MoveUpService service = MoveUpService();
+  MockUpService service = MockUpService();
   XMLConverter converter = XMLConverter();
 
   @override

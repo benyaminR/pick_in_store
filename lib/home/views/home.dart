@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pick_in_store/home/controller/picked_orders/picked_orders_bloc.dart';
 import 'package:pick_in_store/home/controller/unpicked_orders/unpicked_orders_bloc.dart';
 import 'package:pick_in_store/order/view/order.dart';
-import 'package:pick_in_store/pick_up_order/pick_up_order.dart';
+import '../../pick_up_order/views/pick_up_order.dart';
 import 'package:pick_in_store/utils/dependencies.dart';
 
 class Home extends StatelessWidget {
@@ -26,22 +26,24 @@ class Home extends StatelessWidget {
                     Text('Abholbereit'),
                     Padding(
                       padding: const EdgeInsets.only(left: 4),
-                      child: Container(
-                        width: 30,
-                        height: 30,
-                        decoration: BoxDecoration(
-                            color: Colors.black12,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(180))),
-                        child: BlocProvider(
-                            create: (context) => getIt<PickedOrdersBloc>(),
-                            child: BlocBuilder<PickedOrdersBloc,
-                                PickedOrdersState>(builder: (context, state) {
-                              if (state.status == PickedStatus.Loaded)
-                                return Center(child: Text(state.items.length.toString()));
-                              return Container();
-                            })),
-                      ),
+                      child: BlocProvider(
+                          create: (context) => getIt<PickedOrdersBloc>(),
+                          child:
+                              BlocBuilder<PickedOrdersBloc, PickedOrdersState>(
+                                  builder: (context, state) {
+                            if (state.status == PickedStatus.Loaded)
+                              return Container(
+                                  width: 30,
+                                  height: 30,
+                                  decoration: BoxDecoration(
+                                      color: Colors.black12,
+                                      borderRadius: BorderRadius.all(
+                                          Radius.circular(180))),
+                                  child: Center(
+                                      child:
+                                          Text(state.items.length.toString())));
+                            return Container();
+                          })),
                     ),
                   ],
                 ),
@@ -53,22 +55,23 @@ class Home extends StatelessWidget {
                     Text('Neu'),
                     Padding(
                       padding: const EdgeInsets.only(left: 4),
-                      child: Container(
-                        width: 30,
-                        height: 30,
-                        decoration: BoxDecoration(
-                            color: Colors.black12,
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(180))),
-                        child:BlocProvider(
-                            create: (context) => getIt<UnpickedOrdersBloc>(),
-                            child: BlocBuilder<UnpickedOrdersBloc,
-                                UnpickedOrdersState>(builder: (context, state) {
-                              if (state.status == UnpickedStatus.Loaded)
-                                return Center(child: Text(state.items.length.toString()));
-                              return Container();
-                            })),
-                      ),
+                      child: BlocProvider(
+                          create: (context) => getIt<UnpickedOrdersBloc>(),
+                          child: BlocBuilder<UnpickedOrdersBloc,
+                              UnpickedOrdersState>(builder: (context, state) {
+                            if (state.status == UnpickedStatus.Loaded)
+                              return Container(
+                                  width: 30,
+                                  height: 30,
+                                  decoration: BoxDecoration(
+                                      color: Colors.black12,
+                                      borderRadius: BorderRadius.all(
+                                          Radius.circular(180))),
+                                  child: Center(
+                                      child:
+                                          Text(state.items.length.toString())));
+                            return Container();
+                          })),
                     )
                   ],
                 ),
@@ -92,7 +95,8 @@ class Home extends StatelessWidget {
       onRefresh: () =>
           Future.value(getIt<PickedOrdersBloc>()..add(GetPickedOrdersEvent())),
       child: BlocProvider(
-          create: (context) => getIt<PickedOrdersBloc>(),
+          create: (context) =>
+              getIt<PickedOrdersBloc>()..add(GetPickedOrdersEvent()),
           child: BlocBuilder<PickedOrdersBloc, PickedOrdersState>(
             builder: (context, state) {
               if (state.status == PickedStatus.Loading)
@@ -141,7 +145,8 @@ class Home extends StatelessWidget {
         onRefresh: () => Future.value(
             getIt<UnpickedOrdersBloc>()..add(GetUnpickedOrdersEvent())),
         child: BlocProvider(
-          create: (context) => getIt<UnpickedOrdersBloc>(),
+          create: (context) =>
+              getIt<UnpickedOrdersBloc>()..add(GetUnpickedOrdersEvent()),
           child: BlocBuilder<UnpickedOrdersBloc, UnpickedOrdersState>(
             builder: (context, state) {
               if (state.status == UnpickedStatus.Loading)

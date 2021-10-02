@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pick_in_store/pick_up_order/pick_up_order.dart';
+import 'pick_up_order/views/pick_up_order.dart';
 import 'package:pick_in_store/sign_in/sign_in.dart';
 import 'package:pick_in_store/splash.dart';
 import 'package:pick_in_store/utils/dependencies.dart';

@@ -14,11 +14,9 @@ part 'picked_orders_state.dart';
 @singleton
 class PickedOrdersBloc extends Bloc<PickedOrdersEvent, PickedOrdersState> {
 
-  PickedOrdersBloc() : super(PickedOrdersState(status: PickedStatus.Initial)){
-    add(GetPickedOrdersEvent());
-  }
+  PickedOrdersBloc() : super(PickedOrdersState(status: PickedStatus.Initial));
 
-  MoveUpService service = MoveUpService();
+  MockUpService service = MockUpService();
   XMLConverter converter = XMLConverter();
 
   @override
