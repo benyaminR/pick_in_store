@@ -1,7 +1,3 @@
-
-https://github.com/benyaminR/pick_in_store/assets/41753600/11e971c8-855c-4a94-9ea1-b571b85d34cb
-
-https://github.com/benyaminR/pick_in_store/assets/41753600/4dbf82bd-8deb-4e0c-8db4-205bcb3d78db
 # Pick In Store
 
 A Flutter application designed for in-store pick-up functionalities.
