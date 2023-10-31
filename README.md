@@ -1,16 +1,46 @@
-# pick_in_store
+Pick In Store
+A Flutter application designed for in-store pick-up functionalities.
 
-A new Flutter application.
+Overview
+"Pick In Store" is a mobile application built using Flutter. It streamlines the process of ordering products and picking them up in-store. With a user-friendly interface, it integrates various features from order processing to user authentication.
 
-## Getting Started
+Features
+Home
+The central hub for accessing all the application's features. The home module is structured as follows:
 
-This project is a starting point for a Flutter application.
+Controller: Handles user interactions and updates the view.
+Model: Contains the data structures representing the application's data related to the home feature.
+Views: UI components or screens related to the home feature.
+Networking
+Manages all the API calls and networking-related tasks. The main components include:
 
-A few resources to get you started if this is your first Flutter project:
+mock_up_service.dart: Provides mock-up services or dummy data for networking tasks. This might be used for development or testing purposes.
+Notifications
+Manages and triggers in-app notifications.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Order Processing
+Allows users to place, view, and manage their orders. The order module is structured as:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Controller: Contains logic related to order processing.
+Model: Data structures or objects related to orders.
+View: UI components or screens related to the order feature.
+In-Store Pick-Up
+Facilitates the process for users to pick up their orders from a physical location.
+
+User Authentication
+Provides sign-in and authentication functionalities.
+
+Utilities
+Contains helper functions and utility code.
+
+Getting Started
+Clone the repository.
+Navigate to the project directory.
+Run flutter pub get to fetch the project dependencies.
+Use flutter run to start the application.
+Dependencies
+Flutter SDK
+Cupertino Icons
+Get It (for dependency injection)
+Contribution
+Feel free to fork the repository, make changes, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
