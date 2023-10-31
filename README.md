@@ -1,17 +1,14 @@
-# Pick In Store
+# Pick In Store Employee App
 
-A Flutter application designed for in-store pick-up functionalities.
+A Flutter application designed for store employees to efficiently process "pick in store" orders.
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
-  - [Home](#home)
+  - [Order Management](#order-management)
   - [Networking](#networking)
   - [Notifications](#notifications)
-  - [Order Processing](#order-processing)
-  - [In-Store Pick-Up](#in-store-pick-up)
-  - [User Authentication](#user-authentication)
   - [Utilities](#utilities)
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
@@ -19,49 +16,33 @@ A Flutter application designed for in-store pick-up functionalities.
 
 ## Overview
 
-"Pick In Store" is a mobile application built using Flutter. It streamlines the process of ordering products and picking them up in-store. With a user-friendly interface, it integrates various features from order processing to user authentication.
+"Pick In Store Employee App" is tailored for store employees to manage and process orders that customers have placed online for in-store pickup. It ensures efficient and accurate order processing by helping employees verify the availability of ordered items and update the order status.
 
-https://github.com/benyaminR/pick_in_store/assets/41753600/8b4ee9ab-2ab6-47df-9b0a-e035628daf4e
+https://github.com/benyaminR/pick_in_store/assets/41753600/76ff960a-01cb-40bd-89f4-48c8117f77e0
 
 ## Features
 
-### Home
+### Order Management
 
-The central hub for accessing all the application's features. The home module is structured as follows:
-
-- **Controller**: Handles user interactions and updates the view.
-- **Model**: Contains the data structures representing the application's data related to the home feature.
-- **Views**: UI components or screens related to the home feature.
+Enables store employees to:
+- View a list of incoming online orders designated for in-store pickup.
+- Check and verify the availability of ordered items within the store.
+- Update the order status (e.g., ready for pickup, waiting for restock, or completed).
 
 ### Networking
 
-Manages all the API calls and networking-related tasks. The main components include:
-
-- **mock_up_service.dart**: Provides mock-up services or dummy data for networking tasks. This might be used for development or testing purposes.
+Handles all the API calls and networking-related tasks, ensuring real-time updates and synchronization. Main components include:
+- **mock_up_service.dart**: Provides mock-up services or dummy data, which might be used for development or testing purposes.
 
 ### Notifications
 
-Manages and triggers in-app notifications.
-
-### Order Processing
-
-Allows users to place, view, and manage their orders. The order module is structured as:
-
-- **Controller**: Contains logic related to order processing.
-- **Model**: Data structures or objects related to orders.
-- **View**: UI components or screens related to the order feature.
-
-### In-Store Pick-Up
-
-Facilitates the process for users to pick up their orders from a physical location.
-
-### User Authentication
-
-Provides sign-in and authentication functionalities.
+Alerts store employees in real-time about:
+- New incoming orders.
+- Critical updates or changes to existing orders.
 
 ### Utilities
 
-Contains helper functions and utility code.
+Consists of helper functions and utility code to support various application functionalities.
 
 ## Getting Started
 
@@ -78,4 +59,4 @@ Contains helper functions and utility code.
 
 ## Contribution
 
-Feel free to fork the repository, make changes, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome! Feel free to fork the repository, make changes, and submit pull requests. For significant changes, please open an issue first to discuss the proposed modifications.
